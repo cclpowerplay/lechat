@@ -3,5 +3,5 @@ const isDev = process.env.NODE_ENV === 'development';
 export default {
   isDev,
   brandName: 'LeChat',
-  avatarUploadLimit: 4 * 1024 * 1024, // 2 MB
+  avatarUploadLimit: 3 * 1024 * 1024, // 3 MB
 };

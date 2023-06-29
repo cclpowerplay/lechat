@@ -9,5 +9,6 @@ router.post('/users/verify', authenticate, ctrl.verify);
 router.get('/users', authenticate, ctrl.find);
 router.delete('/users', authenticate, ctrl.delete);
 router.patch('/users/change-pass', authenticate, ctrl.changePass);
+router.patch('/users/change-password',authenticate,ctrl.changePass)
 
 module.exports = router;
